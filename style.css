@@ -11,3 +11,30 @@
 --red-hat-display:   "Red Hat Display", helvetica, arial, sans-serif;
 }
 
+body{
+    background-color: --very-pale-blue;
+    background: no-repeat center/cover url('../images/pattern-background-mobile.svg');
+    margin: 0;
+    }
+
+
+    button{
+    cursor: pointer;
+    font-family: --red-hat-display;
+    font-weight: 600;
+    font-size: .9rem;
+    margin: 0 auto;
+    }
+
+    div{
+        display: inline-block;
+        }
+
+        #container{ 
+          
+                min-height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+        }
