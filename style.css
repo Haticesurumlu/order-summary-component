@@ -38,3 +38,12 @@ body{
                 align-items: center;
                 
         }
+
+        .plan{
+            display: flex;
+            flex-direction: row;
+            }
+            .plan-col{
+            display: flex;
+            flex-direction: column;
+            }
