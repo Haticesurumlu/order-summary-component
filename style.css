@@ -15,8 +15,8 @@ body{
     /* max-width: 1440px; */
     background: url(/images/pattern-background-desktop.svg) no-repeat center/cover;
     background-color: var(--pale-blue);
-    /* align-content: center; */
-    align-items: center;
+    align-content: center; 
+    
 }
 
 
@@ -31,7 +31,7 @@ margin: 0 auto;
 
 
 /* Container */
-#container{
+.container{
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -136,9 +136,13 @@ margin: 0 auto;
     background-color: hsl(245, 75%, 52%);
     word-spacing: 0.3em;
     box-shadow: #247 5px 5px 20px;
-    margin-left: 30px;
+    
     box-shadow: 0 20px 20px rgba(58,41,255,.2);
   
+}
+
+.button1{
+    justify-content: center;
 }
 .btn1 button:hover{
     color: #fff;
@@ -174,30 +178,4 @@ margin: 0 auto;
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
-/*----- RESPONSIVE -----*/
-
-/* 
-@media only screen and (max-width: 425px){
-    body{
-        background-image: url("order-summary-component-main/images/pattern-background-mobile.svg");
-        font-size: 14px;
-    }
-    .card{
-        max-width: 100%;
-    }
-    .header .hero{
-        overflow: hidden;
-
-
-    }
-    .card .header h1{
-        font-size: 23px;
-    }
-    .card .plan{
-        padding: 12px;
-    }
-    .plan img{
-        margin-left: 10px;
-    }
-
-} */
+/* RESPONSIVE */
