@@ -46,10 +46,11 @@ button {
 .card__image {
     width: 100%;
     height: 10rem;
-    background: center/cover;
+    background: no-repeat center/cover;
     margin-bottom: 10px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    position: relative;
 
 }
 
